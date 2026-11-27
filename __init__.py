@@ -27,7 +27,7 @@ class PurgeVRAMNode:
             },
             "optional": {
                 "delay_seconds": ("FLOAT", {
-                    "default": 5.0,
+                    "default": 3.0,
                     "min": 0.0,
                     "max": 3600.0,
                     "step": 1.0
