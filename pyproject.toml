@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-purge-vram-delayed"
+description = "A smart VRAM/RAM cleanup node for ComfyUI with a customizable delay timer, queue monitoring (auto-postpone during batch generation), 3-stage purge modes, and UI toast notifications."
+version = "1.0.0"
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/makopicut/ComfyUI-PurgeVRAM-Delayed/"
+
+[tool.comfy]
+PublisherId = "makopicut"
+DisplayName = "Purge VRAM (Delayed)"
+Icon = ""
